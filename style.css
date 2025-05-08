@@ -349,7 +349,6 @@ input, textarea {
   border-collapse: collapse;
   margin-top: 1.5em;
   font-family: 'Lora', serif;
-  padding-top: 50px;
 }
 
 .aid-table th,
@@ -374,4 +373,8 @@ h1 {
 
 .centered-text {
   text-align: center;
+}
+
+h3 {
+   padding-top: 30px;
 }
