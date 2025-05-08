@@ -1,0 +1,372 @@
+		body {
+            font-family: 'Lora', serif;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+        }
+        header {
+			display: flex;
+            font-family: 'Lexend', sans-serif;
+            background-color: #b04b04;
+            text-align: left;
+            font-size: 25px;
+            font-weight: bold;
+			padding-left: 70px;
+			align-items: center;
+			justify-content: flex-start;
+			padding-top: 0px;
+			padding-bottom: 0px;
+        }
+		
+		header h1 {
+			margin: 20px;
+		}
+	
+		.header-icon {
+			height: 55px;
+			vertical-align: middle;
+			margin: 5px;
+			text-align: left;
+		}
+		
+		
+        nav {
+            display: flex;
+            justify-content: space-evenly;
+			align-items: center;
+            background-color: #f7a56a;
+            padding: 10px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #be2e01;
+            font-family: 'Georgia', serif;
+            font-size: 16px;
+        }
+		
+		nav a:hover {
+			color: black;
+		}
+		
+		nav a:visited {
+			color: white;
+		}
+		
+		.main-section {
+			width: 85%;
+			margin: 40px auto;
+			padding-top: 10px;
+		}
+
+
+		.feature-block {
+			display: flex;
+			align-items: flex-start;
+			margin-bottom: 40px;
+		}
+
+		.feature-img {
+			height: 400px;
+			width: auto;
+			object-fit: cover;
+			padding-left: 70px; }
+
+		.feature-text h2 {
+			font-family: 'Montserrat', sans-serif;
+			font-size: 28px;
+			margin-bottom: 10px;
+			padding-left: 100px;
+		}
+
+		.feature-text p {
+			font-family: 'Lora', serif;
+			font-size: 16px;
+			color: #333;
+			padding-left: 130px;
+			padding-right: 200px;
+			line-height: 1.6;
+		}
+
+
+		.section-title {
+			text-align: center;
+			font-family: 'Montserrat', sans-serif;
+			font-size: 28px;
+			margin-top: 40px;
+			margin-bottom: 20px;
+			color: black;
+		}
+
+		.gallery {
+			display: flex;
+			justify-content: space-evenly;
+			padding-top: 35px;
+			padding-bottom: 5px;
+		}
+
+		.gallery-item {
+			flex: 1;
+			text-align: center;
+		}
+
+		.gallery-item img {
+			width: 100%;
+			max-width: 250px;
+			height: auto;
+		}
+
+		.gallery-item p {
+			margin-top: 20px;
+			font-size: 14px;
+			font-family: 'Lora', serif;
+			color: black;
+			margin-right: 90px;
+			margin-left: 90px;
+		}
+		
+		
+        .footer {
+            font-family: 'Menlo', monospace;
+            background-color: #f7a56a;
+            padding: 10px;
+            text-align: center;
+			font-style: italic;
+            margin-top: 0;
+        }
+		
+
+.school-gallery {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 20px;
+	padding: 20px 0;
+}
+
+.school-card {
+	flex: 1;
+	min-width: 250px;
+	background-color: #f9f9f9;
+	border: 2px solid #d7d7d7;
+	border-radius: 10px;
+	padding: 15px;
+	text-align: center;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.school-card img {
+	width: 100%;
+	height: auto;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+.school-card p {
+	font-size: 15px;
+	font-family: 'Lora', serif;
+	padding: 0 10px;
+	line-height: 1.5;
+	color: #333;
+}
+
+.tips-list {
+	flex: 2;
+	font-family: 'Lora', serif;
+	font-size: 16px;
+	line-height: 1.6;
+	padding-left: 40px;
+}
+
+
+.page-wrapper {
+	display: flex;
+	flex: 1;
+	min-height: 100vh;
+}
+
+.side-nav {
+  position: sticky;
+  top: 0;
+  width: 200px;
+  background-color: #ffe5cd;
+  border-right: 2px solid #d6a676;
+  padding: 40px 30px;
+  box-sizing: border-box;
+  max-height: 100vh;       
+  overflow-y: auto;         
+}
+
+.side-nav a {
+	display: block;
+	color: #b04b04;
+	text-decoration: none;
+	font-family: 'Georgia', serif;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+.side-nav a:hover {
+	text-decoration: underline;
+	color: #000;
+}
+
+.main-content {
+	flex: 1;
+	padding: 40px;
+}
+
+
+html {
+	scroll-behavior: smooth;
+}
+
+form {
+    width: 100%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto; 
+	padding-right: 40px;
+}
+
+.form-row {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap; 
+    gap: 10px; 
+    margin-bottom: 15px;
+}
+
+label {
+    width: 110px; 
+    text-align: right;
+    font-family: 'Lora', serif;
+    flex-shrink: 0;
+}
+
+input, textarea {
+    flex: 1;
+    min-width: 0; 
+    padding: 5px;
+    font-family: 'Lora', serif;
+}
+
+.form-title {
+    text-align: center; 
+	padding-left: 50px;
+	padding-top: 30px;
+}
+
+.centered-image {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.section-content {
+  text-align: center;
+  padding: 1em;
+}
+
+.two-column {
+  display: flex;
+  gap: 2em;
+  align-items: flex-start;
+  padding: 1em 0;
+}
+
+.left-image {
+  flex: 1;
+  text-align: center;
+}
+
+.left-image img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.right-text {
+  flex: 2;
+  font-family: 'Lora', serif;
+}
+
+.video-wrapper {
+  text-align: center;
+  margin-top: 1em;
+}
+
+.video-wrapper video {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #aaa;
+  border-radius: 8px;
+}
+
+.split-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 2em;
+  padding: 1em 0; 
+}
+
+.image-side {
+  flex: 1;
+  text-align: center;
+}
+
+.image-side img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+}
+
+.text-side {
+  flex: 2;
+  font-family: 'Lora', serif;
+}
+
+.text-side ul {
+  padding-left: 1.2em;
+  margin-top: 0.5em;
+}
+
+.text-side li {
+  margin-bottom: 0.5em;
+  line-height: 1.4;
+}
+
+.image-right {
+  flex-direction: row-reverse;
+}
+
+.aid-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1.5em;
+  font-family: 'Lora', serif;
+}
+
+.aid-table th,
+.aid-table td {
+  border: 1px solid #ccc;
+  padding: 12px 15px;
+  text-align: center;
+}
+
+.aid-table thead {
+  background-color: #f8f8f8;
+  font-weight: bold;
+}
+
+.aid-table tbody tr:nth-child(even) {
+  background-color: #f3f3f3;
+}
+
+h1 {
+  text-align: center;
+}
