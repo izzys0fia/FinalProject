@@ -371,3 +371,7 @@ input, textarea {
 h1 {
   text-align: center;
 }
+
+.centered-text {
+  text-align: center;
+}
