@@ -328,7 +328,6 @@ input, textarea {
 .text-side {
   flex: 2;
   font-family: 'Lora', serif;
-  max-width: 50%;
 }
 
 .text-side ul {
