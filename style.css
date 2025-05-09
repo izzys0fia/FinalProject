@@ -326,7 +326,7 @@ input, textarea {
 }
 
 .text-side {
-  flex: 2;
+  flex: 1;
   font-family: 'Lora', serif;
 }
 
